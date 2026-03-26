@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Sistemas</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div class="container">
+        <header class="main-header">
+            <h1 class="logo">SISTEMAS | POLICHACAO</h1>
+            <nav class="nav-links">
+                <a href="Equipo.html" style="text-decoration: none;">
+                    <button class="nav-btn">EQUIPO</button>
+                </a>
+            </nav>
+        </header>
+
+        <section class="hero">
+            <h2 class="hero-title">Code Engine</h2>
+            <p class="hero-subtitle">Portafolio del Equipo de Sistemas</p>
+        </section>
+
+        <div class="projects-grid">
+            
+            <div class="project-card sigepol">
+                <div class="icon-wrapper">
+                    <i data-lucide="shield" class="icon-blue"></i>
+                </div>
+                <h3 class="project-title">SIGEPOL</h3>
+                <p class="project-desc">Plataforma integral de gestión policial y administrativa.</p>
+                <a href="https://www.sigepolchacao.com/" target="_blank" rel="noopener noreferrer" class="details-link">
+                    VER DETALLES <i data-lucide="external-link" class="small-icon"></i>
+                </a>
+            </div>
+
+            <div class="project-card lol">
+                <div class="icon-wrapper">
+                    <i data-lucide="code" class="icon-purple"></i>
+                </div>
+                <h3 class="project-title">League Of Legends</h3>
+                <p class="project-desc">Módulo de gestión de campeones y habilidades (React + NestJS).</p>
+                <a href="http://localhost:5173/" class="details-link">VER DETALLES</a>
+            </div>
+
+            <div class="project-card intranet">
+                <div class="icon-wrapper">
+                    <i data-lucide="database" class="icon-emerald"></i>
+                </div>
+                <h3 class="project-title">Intranet</h3>
+                <p class="project-desc">Interfaz optimizada para la consulta de datos de funcionarios.</p>
+                <a href="http://172.17.4.64/www_root/" target="_blank" rel="noopener noreferrer" class="details-link">
+                    VER DETALLES <i data-lucide="external-link" class="small-icon"></i>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
